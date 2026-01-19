@@ -1,0 +1,12 @@
+                precision    recall  f1-score   support
+
+     Deepfakes     0.9508    0.9406    0.9457     15345
+     Face2Face     0.8936    0.8735    0.8834     14985
+   FaceShifter     0.9435    0.9336    0.9385     15030
+      FaceSwap     0.9284    0.8831    0.9052     15135
+NeuralTextures     0.7743    0.8019    0.7879     14565
+      Original     0.6982    0.7393    0.7181     14940
+
+      accuracy                         0.8627     90000
+     macro avg     0.8648    0.8620    0.8631     90000
+  weighted avg     0.8658    0.8627    0.8640     90000

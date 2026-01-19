@@ -1,0 +1,45 @@
+# ---------- CORE DEEP LEARNING ----------
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+torchaudio==2.1.2+cu118
+pytorchvideo==0.1.5
+
+# ---------- VIDEO / FRAME PROCESSING ----------
+opencv-python==4.10.0.84
+decord==0.6.0
+
+# ---------- AUDIO PROCESSING ----------
+librosa==0.10.1
+soundfile==0.12.1
+pydub==0.25.1
+einops==0.7.0
+
+# ---------- MACHINE LEARNING ----------
+timm==0.9.16
+scikit-learn==1.4.0
+numpy==1.26.4
+scipy==1.12.0
+pandas==2.2.0
+
+# ---------- VISUALISATION ----------
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+
+# ---------- UTILITIES ----------
+tqdm==4.66.1
+colorama==0.4.6
+psutil==5.9.8
+ninja==1.11.1.1
+Pillow==10.0.1
+
+# ---------- OPTIONAL DASHBOARD ----------
+streamlit==1.31.0
+
+
+
+#   pip install -r requirements.txt  
+
+
+#   pip freeze | %{pip uninstall -y $_}

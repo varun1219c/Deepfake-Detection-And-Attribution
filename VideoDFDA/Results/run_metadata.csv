@@ -1,0 +1,11 @@
+dataset_index_csv,J:\Capstone Project - IV Year\VIDEO_DFDA\dataset_index.csv
+dataset_dir,J:\Capstone Project - IV Year\VIDEO_DFDA\Dataset\FF++C32-Frames
+results_dir,J:\Capstone Project - IV Year\VIDEO_DFDA\VIDEO_DFDA\Results
+num_classes,6
+class_names,"['Deepfakes', 'Face2Face', 'FaceShifter', 'FaceSwap', 'NeuralTextures', 'Original']"
+batch_size,16
+image_size,300
+num_epochs,15
+lr,0.0001
+device,cuda
+best_val_acc,0.9

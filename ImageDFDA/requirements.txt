@@ -1,0 +1,56 @@
+# PyTorch with CUDA 11.8 support for RTX 3050 (Python 3.11.9 compatible)
+# Install these first before other packages
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+torchaudio==2.1.2+cu118 
+
+# Audio Processing
+einops==0.7.0
+librosa==0.10.1
+soundfile==0.12.1
+pydub==0.25.1
+
+
+
+# Computer Vision & Image Processing
+opencv-python==4.8.1.78 
+Pillow==10.0.0
+
+# Model Architecture (timm for pretrained models like XceptionNet)
+timm==0.9.16
+
+# Machine Learning & Metrics
+scikit-learn==1.4.0
+numpy==1.26.3
+scipy==1.12.0
+
+# Data Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Data Manipulation
+pandas==2.2.0
+
+# Progress Bars
+tqdm==4.66.1
+
+# Performance Optimization
+ninja==1.11.1.1
+
+# Additional utilities
+colorama==0.4.6
+
+# Memory management for RTX 3050 6GB
+psutil==5.9.8
+
+# Streamlit App Dependencies
+streamlit==1.31.0
+plotly==5.18.0
+
+
+
+#   pip install -r requirements.txt  
+
+
+#   pip freeze | %{pip uninstall -y $_}

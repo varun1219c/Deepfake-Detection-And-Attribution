@@ -1,0 +1,13 @@
+python -m venv capstone-env
+
+capstone-env\Scripts\activate.bat
+#cmd
+
+capstone-env\Scripts\Activate.ps1
+#PS
+
+deactivate
+
+
+
+pip install -r requirements.txt

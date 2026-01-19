@@ -1,0 +1,61 @@
+
+======================================================================
+AUDIO DEEPFAKE DETECTION - TRAINING SUMMARY
+======================================================================
+Generated: 2025-10-18 15:46:09
+
+DATASET INFORMATION:
+----------------------------------------------------------------------
+Total Samples: 2561
+Training Samples: 2048
+Validation Samples: 513
+
+Class Distribution:
+  - ElevenLabs: 608 samples
+  - Original: 736 samples
+  - Tacotron: 122 samples
+  - Text To Speech: 1039 samples
+  - Voice Conversion: 56 samples
+
+MODEL INFORMATION:
+----------------------------------------------------------------------
+Architecture: Custom CNN
+Total Parameters: 4,852,933
+Trainable Parameters: 4,852,933
+
+TRAINING CONFIGURATION:
+----------------------------------------------------------------------
+Batch Size: 16
+Learning Rate: 0.0001
+Weight Decay: 1e-05
+Number of Epochs: 24
+Early Stopping Patience: 4
+
+RESULTS:
+----------------------------------------------------------------------
+Best Validation Accuracy: 98.25%
+Final Training Loss: 0.1127
+Final Validation Loss: 0.0653
+
+OUTPUT FILES:
+----------------------------------------------------------------------
+Models:
+  - best_model.pth
+
+Graphs:
+  - training_history.png
+  - confusion_matrix.png
+  - confusion_matrix_normalized.png
+  - class_performance.png
+  - roc_curves.png
+  - class_distribution.png
+
+Metrics:
+  - metrics_report.txt
+  - metrics_report.json
+  - training_history.csv
+  - model_summary.txt
+  - config.json
+  - summary.txt
+
+======================================================================

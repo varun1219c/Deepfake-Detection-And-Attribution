@@ -1,0 +1,33 @@
+======================================================================
+TRAINING SUMMARY REPORT
+======================================================================
+
+CONFIGURATION
+----------------------------------------------------------------------
+num_epochs: 20
+learning_rate: 0.0001
+batch_size: 16
+image_size: 299
+early_stopping_patience: 5
+reduce_lr_patience: 3
+min_lr: 1e-07
+lr_reduction_factor: 0.5
+gradient_clip_value: 1.0
+model_save_path: saved_models\best_model_20251008_194321.pt
+use_pretrained: True
+dropout_rate: 0.5
+use_attention: True
+
+======================================================================
+TRAINING RESULTS
+======================================================================
+total_epochs: 20
+best_validation_accuracy: 0.9954433929197336
+best_validation_f1: 0.9954464732123964
+final_train_accuracy: 0.9999248910920835
+final_val_accuracy: 0.9940413599719593
+final_train_f1: 0.9999248785555015
+final_val_f1: 0.9940589382136499
+final_learning_rate: 2.5e-05
+average_epoch_time: 259.526955974102
+total_training_time: 5190.53911948204
