@@ -282,11 +282,7 @@ You may freely use, modify, and distribute this work with proper attribution.
 
 ---
 
-## 📞 Contact
 
-**Author:** [Jayanth Bottu](https://www.linkedin.com/in/jayanthbottu/)
-
----
 
 ## ⚠️ Note
 
