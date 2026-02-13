@@ -256,7 +256,7 @@ Displays overview, architecture, team, and technical specifications.
 | **Varun Polusani**     | 23311a6707 | System Architect & Integration Lead |
 | **Sai charan T**       | 23311a6712 | UI Design & Testing                 |
 | **Akhil Reddy K**      | 23311a6706 | Model Training (Image)              |
-| **Sai Kandakuri**      | 233111a6707 | Data Processing & Video DFDA        |
+| **Sai Kandakuri**      | 23311a6704 | Data Processing & Video DFDA        |
 
 ---
 
