@@ -253,11 +253,10 @@ Displays overview, architecture, team, and technical specifications.
 
 | Name                   | Roll No    | Role                                |
 | :--------------------- | :--------- | :---------------------------------- |
-| **Jayanth Bottu**      | 2303A51LA7 | System Architect & Integration Lead |
-| **Sri Varsha Janagam** | 2303A51L99 | Model Development (Audio)           |
-| **Sindhu Kodati**      | 2303A51LA0 | UI Design & Testing                 |
-| **Mahendra Gaddam**    | 2303A51LA9 | Model Training (Image)              |
-| **Nikhil Kuchana**     | 2303A51LB0 | Data Processing & Video DFDA        |
+| **Varun Polusani**     | 23311a6707 | System Architect & Integration Lead |
+| **Sai charan T**       | 23311a6712 | UI Design & Testing                 |
+| **Akhil Reddy K**      | 23311a6706 | Model Training (Image)              |
+| **Sai Kandakuri**      | 233111a6707 | Data Processing & Video DFDA        |
 
 ---
 
